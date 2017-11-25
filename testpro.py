@@ -9,6 +9,7 @@ while True:
         os.makedirs(newpath)
         imageFile="test.png"
         str1="mipmap"
+        newpath=newpath+"/"+str1
         #opening the imagefile
         im1=Image.open(imageFile)
         width=24
