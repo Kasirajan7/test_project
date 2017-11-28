@@ -5,7 +5,7 @@ def relation(length):
     while s1>1:
         for i in range(length-1):
             s.insert(0,s.pop())
-        #print(s.pop())
+        s.pop()
         s1=len(s)
     final=s.pop()
     if final=='f':
